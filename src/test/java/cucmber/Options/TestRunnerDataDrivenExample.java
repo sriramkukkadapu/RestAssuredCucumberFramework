@@ -1,4 +1,4 @@
-package Runner;
+package cucmber.Options;
 
 import org.junit.runner.RunWith;
 
