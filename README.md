@@ -57,7 +57,20 @@ mvn test
 ```java
 mvn test -Dcucumber.options="--tags @DeletePlace"
 ```
-# Reporting tool that we are using
+# Generating Reports using plugin
+Reporting plugin that we are using is below
 <a href="https://github.com/damianszczepanik/maven-cucumber-reporting">https://github.com/damianszczepanik/maven-cucumber-reporting </a>
+
+Command to generate reports
+
+mvn test verify
+
+test -> to run tests
+verify -> generate reports after running all the tests
+
+After this reports are generated under target/cucumber-html-reports
+Report would look like below.
+JSON Structure for example
+![plot](./images/reports.png)
 
 
